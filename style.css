@@ -1,8 +1,9 @@
 .body {
   margin: 10;
-  background-color: #f0a35b;
+  background-color: #FEFDED;
   width: 100%;
   height: 100vh;
+  
 }
 .header{
   display: flex;
@@ -59,5 +60,38 @@
     text-align: center;
 }
 /* CONTACT US */
+.register{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center ;
+  width: 60%;
+  text-align: start;
+  border: 5px solid #A1C398;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.body2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10;
+  background-color: #FEFDED;
+  width: 100%;
+  height: 100vh;
+}
+.img_contact{
+  border-radius:  0 1rem  1rem 0 ; 
+  width: 500px; 
+  height: 600px;
+}
+input, textarea{
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  font-style: oblique;
+}
+
+
 
 
