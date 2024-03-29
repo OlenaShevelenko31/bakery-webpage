@@ -1,5 +1,5 @@
-body {
-  margin: 0;
+.body {
+  margin: 10;
   background-color: #f0a35b;
   width: 100%;
   height: 100vh;
@@ -11,8 +11,7 @@ body {
   align-self: center; 
   width: 100%;
   height: 60%;
-  padding: 0;
-
+  margin-top:30px;
 }
 #dough {
   width: 60%;
@@ -21,7 +20,6 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0;
   padding: 0;
 }
 .one {
@@ -40,6 +38,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 .box_add{
     margin: 10px;
@@ -59,5 +58,6 @@ body {
     justify-content: space-around;
     text-align: center;
 }
+/* CONTACT US */
 
 
