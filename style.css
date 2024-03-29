@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: #ffffd2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#dough {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.one {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(244, 163, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 0px #000000; 
+}
