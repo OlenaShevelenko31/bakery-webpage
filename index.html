@@ -14,18 +14,32 @@
     />
   </head>
 
-  <body class=" container body">
+  <body class="  body">
 
 <!-- NAVBAR -->
-    <header class=" py-2 bg-primary">
-      <ul class="nav nav-pills d-flex justify-content-evenly">
-        <li class="nav-item"><a href="./index.html" class="nav-link bg-warning" aria-current="page">Home</a></li>
+    <header class=" py-2  color">
+      <ul class="nav nav-pills d-flex justify-content-evenly ">
+        <li class="nav-item"><a href="./index.html" class="nav-link bg-warning nav_color" aria-current="page">HOME</a></li>
+        
+        <div class="dropdown">
+          <button class="btn bg-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PICK A BITE!
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./product.html">Maffins</a></li>
+            <li><a class="dropdown-item" href="./style.css">Blinchiki</a></li>
+            <li><a class="dropdown-item" href="./style.css">Croisant</a></li>
+          </ul>
+      </div>
+
         <li class="nav-item"><a href="./login.html" class="nav-link bg-light">LOG IN</a></li>
         <li class="nav-item"><a href="./contact.html" class="nav-link bg-light">CONTACT US</a></li>
       </ul>
     </header>
 <!-- End of .container -->
 
+
+<div class="container"></div>
 <!-- HEADER -->
 <div class="header">
     <video autoplay muted loop id="dough" playinline>
@@ -34,8 +48,8 @@
     <div class="one">
         <h1 class="text">Workdshop</h1>
         <p>Apr13-14</p>
-        <button>Register here</button>
-    </div>    
+        <button type="button" class="btn btn-outline-info">Book now</button>
+      </div>    
 </div>
     <br />
 <!-- End of .container -->
@@ -69,7 +83,7 @@
 <!-- End of .container -->
 
 <!-- CARUSEL -->
-<div class="container w-75 h-75">
+<div class="container w-50 h-75 my-5">
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -101,8 +115,8 @@
 <!-- End of .container -->
 
 <!-- FOOTER  -->
-<div class=" my-5">
-  <footer class="text-center text-white" style="background-color: #096ddf">
+<div class=" my-6 py-5">
+  <footer class="text-center text-white" style="background-color: rgb(16, 109, 203);">
     <div class="container">
       <section class="mt-5">
         <div class="row text-center d-flex justify-content-center pt-5">

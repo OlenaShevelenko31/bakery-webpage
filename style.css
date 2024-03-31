@@ -5,6 +5,9 @@
   height: 100vh;
   
 }
+.color{
+  background-color: rgb(16, 109, 203);
+}
 
 
 .header{
@@ -70,7 +73,7 @@
   align-items:center ;
   width: 60%;
   text-align: start;
-  border: 5px solid #A1C398;
+  border: 5px solid #23599b;
   border-radius: 20px;
   padding-left: 10px;
 }
@@ -94,6 +97,106 @@ input, textarea{
   width: 80%;
   font-style: oblique;
 }
+
+/* PRODUCTS */
+
+.parent{
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  margin: 20px;
+  padding: 20px;
+  font-size: 15px;
+  flex:1;
+  border-radius: 20px;
+
+}
+
+h3, img, a{
+  align-self: center;
+}
+
+.list{
+  background-color:#ffffd2;
+  color: #7c7575;
+}
+
+h3{
+  color:#52616b;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.price{
+  color:#52616b;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  align-self: center;
+}
+
+
+del {
+  background-color: #fbb;
+}
+
+ins{
+  display: inline-block;
+  transform: rotate(-10deg);
+  text-decoration: none;
+}
+
+.ins2{
+  text-decoration: none;
+}
+
+.btn{
+  background-color: #aa96da;
+  color: #ffffd2;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.price2{
+  color:#52616b;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  align-self: center;
+}
+
+@media all and ( max-width:500px){
+  .baby{
+      font-size: 15px;
+  }
+  .baby2{
+      font-size: 15px;
+      margin-left: 30px;
+
+  }
+}
+
+@media all and ( max-width:500px){
+  .baby{
+      font-size: 15px;
+      margin-left: 30px;
+  }
+  .baby2{
+      font-size: 15px;
+      margin-left: 30px;
+
+  }
+
+}
+
+
 
 
 
