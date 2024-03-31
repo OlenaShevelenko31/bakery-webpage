@@ -9,7 +9,6 @@
   background-color: rgb(16, 109, 203);
 }
 
-
 .header{
   display: flex;
   flex-direction: column;
@@ -17,6 +16,25 @@
   align-self: center; 
   width: 100%;
   height: 70%;
+}
+div.header>div.one>h1, div.header>div.one>button{
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+div.header>div.one>p{
+  position: relative;
+  animation: mymove2 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes mymove2 {
+  from {right: -300px;}
+  to {right: 0;}
+}
+
+.text{
+  transition-timing-function: ease;
+  
 }
 #dough {
   width: 65%;
@@ -47,6 +65,22 @@
     justify-content: center;
     margin: 10px;
 }
+div.add>div.box_add.two {
+  position: relative;
+  animation: mymove 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+div.add>div.box_add.three {
+  position: relative;
+  animation: mymove2 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+  div.add{
+  transition-timing-function: ease;
+  }
+
 .box_add{
     margin: 10px;
     width: 400px;
@@ -157,11 +191,35 @@ ins{
   text-decoration: none;
 }
 
+div.box>a{
+  background-color: #3a8919;
+  border-radius: 20px;
+  
+}
+
 .btn{
-  background-color: #aa96da;
+  background-color: #3a8919;
   color: #ffffd2;
   font-size: 30px;
   border-radius: 10px;
+  transition-timing-function: ease;
+  transition-property: width, height;
+  transition-duration:  2s;
+}
+div.box>a{
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+div.box>a.three{
+  position: relative;
+  animation: mymove2 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {left: -300px;}
+  to {left: 0;}
 }
 
 .price2{
