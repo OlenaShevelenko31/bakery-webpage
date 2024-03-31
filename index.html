@@ -14,31 +14,19 @@
     />
   </head>
 
-  <body class="body">
+  <body class=" container body">
 
-  
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
+<!-- NAVBAR -->
+    <header class=" py-2 bg-primary">
+      <ul class="nav nav-pills d-flex justify-content-evenly">
         <li class="nav-item"><a href="./index.html" class="nav-link bg-warning" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="./login.html" class="nav-link">LOG IN</a></li>
-        <li class="nav-item"><a href="./contact.html" class="nav-link">CONTACT US</a></li>
+        <li class="nav-item"><a href="./login.html" class="nav-link bg-light">LOG IN</a></li>
+        <li class="nav-item"><a href="./contact.html" class="nav-link bg-light">CONTACT US</a></li>
       </ul>
     </header>
+<!-- End of .container -->
 
-<!-- 
-    <ul class="nav justify-content-center " >
-      <li class="nav-item navBar">
-        <a class="nav-link active" aria-current="page" href="#">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./login.html">LOG IN</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./contact.html">CONTACT US</a>
-      </li>
-     
-    </ul> -->
-
+<!-- HEADER -->
 <div class="header">
     <video autoplay muted loop id="dough" playinline>
         <source src="dough.mp4" type="video/mp4" />
@@ -50,8 +38,9 @@
     </div>    
 </div>
     <br />
+<!-- End of .container -->
 
-
+<!-- ADVERTISING -->
 <div class="add">
     <div class="box_add">
         <h6>— THIS JUST IN — </h6>
@@ -77,9 +66,10 @@
 
     </div>
 </div>
+<!-- End of .container -->
 
 <!-- CARUSEL -->
-<div class="container w-50 h-75">
+<div class="container w-75 h-75">
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -108,6 +98,66 @@
     </button>
   </div>
 </div>
+<!-- End of .container -->
+
+<!-- FOOTER  -->
+<div class=" my-5">
+  <footer class="text-center text-white" style="background-color: #096ddf">
+    <div class="container">
+      <section class="mt-5">
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">About us</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Products</a>
+            </h6>
+          </div>
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Contact</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-4" />
+
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>Carving more? </p>
+            <p> <em>Subcribe</em> </p>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+            </div>
+            <br>
+            <div class="col ">
+              <input type="email" class="form-control" placeholder="name@example.com" aria-label="your email">
+            </div>
+            <br>
+            <button type="button" class="btn btn-light">Submit</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">© 2024 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"\>Bakery.com</a>
+    </div>
+  </footer>
+</div>
+<!-- End of .container -->
+
+
+
 
 
 

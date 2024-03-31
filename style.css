@@ -5,6 +5,8 @@
   height: 100vh;
   
 }
+
+
 .header{
   display: flex;
   flex-direction: column;
@@ -12,17 +14,16 @@
   align-self: center; 
   width: 100%;
   height: 70%;
-  margin-top:50px;
 }
 #dough {
-  width: 60%;
+  width: 65%;
   height: auto;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 0;
-  margin-top:40px;
+  margin-top:3%;
 
 }
 .one {
